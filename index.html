@@ -1,189 +1,43 @@
-<html><head>
-    
-    
-    
-    
-    <script data-cfasync="false" src="//d1j2jv7bvcsxqg.cloudfront.net/?bvjjd=974131"></script>
-    <title>LIVE TV</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.6.2/dist/plyr.css">
-    <script src="https://cdn.jsdelivr.net/npm/plyr@3.6.12/dist/plyr.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.1.4/dist/hls.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <style>
-    html {
-      font-family: Poppins;
-      background: #000;
-      margin: 0;
-      padding: 0
+<head>
+  <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+  <link
+  href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css"
+  rel="stylesheet"
+  
+  
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg?w=1060&t=st=1681226774~exp=1681227374~hmac=119e4c798f75d239c293698df6722f0376dad04f778bd51dd6e11edc65f3501e');
     }
-    
-    .loading {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: #000;
-            z-index: 9999;
-        }
-        
-        .loading-text {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            text-align: center;
-            width: 100%;
-            height: 100px;
-            line-height: 100px;
-        }
-        
-        .loading-text span {
-            display: inline-block;
-            margin: 0 5px;
-            color: #fb3ea2;
-            font-family: 'Quattrocento Sans', sans-serif;
-        }
-        
-        .loading-text span:nth-child(1) {
-            filter: blur(0px);
-            animation: blur-text 1.5s 0s infinite linear alternate;
-        }
-        
-        .loading-text span:nth-child(2) {
-            filter: blur(0px);
-            animation: blur-text 1.5s 0.2s infinite linear alternate;
-        }
-        
-        .loading-text span:nth-child(3) {
-            filter: blur(0px);
-            animation: blur-text 1.5s 0.4s infinite linear alternate;
-        }
-        
-        .loading-text span:nth-child(4) {
-            filter: blur(0px);
-            animation: blur-text 1.5s 0.6s infinite linear alternate;
-        }
-        
-        .loading-text span:nth-child(5) {
-            filter: blur(0px);
-            animation: blur-text 1.5s 0.8s infinite linear alternate;
-        }
-        
-        .loading-text span:nth-child(6) {
-            filter: blur(0px);
-            animation: blur-text 1.5s 1s infinite linear alternate;
-        }
-        
-        .loading-text span:nth-child(7) {
-            filter: blur(0px);
-            animation: blur-text 1.5s 1.2s infinite linear alternate;
-        }
-        
-        @keyframes blur-text {
-            0% {
-                filter: blur(0px);
-            }
-            100% {
-                filter: blur(4px);
-            }
-        }
-    
-        .plyr__video-wrapper::before {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            z-index: 10;
-            content: '';
-            height: 35px;
-            width: 35px;
-            background: url('') no-repeat;
-            background-size: 35px auto, auto;
-        }
-    
-        .plyr__video-wrapper::after {
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            z-index: 10;
-            content: '';
-            height: 35px;
-            width: 35px;
-            background: url('') no-repeat;
-            background-size: 35px auto, auto;
-        }
-    
     </style>
+    <br> <br> <br> <br> <br> <br>
+  <center>
+
+  <video
+    id="my-video"
+    class="video-js vjs-theme-fantasy"
+    controls=autoplay
     
-    </head>
-    <body>
-    
-    <script type="text/javascript">
-        atOptions = {
-            'key' : 'b687fc57fab4b2192407d2d37b921a0e',
-            'format' : 'iframe',
-            'height' : 0,
-            'width' : 0,
-            'params' : {}
-        };
-        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + ':"></scr' + 'ipt>');
-    </script><script type="text/javascript" src="http:"></script>
-      <div id="loading" class="loading" style="display: none;">
-    <div class="loading-text">
-        <span class="loading-text-words">A</span>
-        <span class="loading-text-words">Y</span>
-        <span class="loading-text-words">A</span>
-        <span class="loading-text-words">A</span>
-        <span class="loading-text-words">N</span>
-        <span class="loading-text-words">-</span>
-        <span class="loading-text-words">G</span>
-        <span class="loading-text-words">F</span>
-            <span class="loading-text-words">C</span>
-    
-    </div>
-    </div>
-    <video autoplay="" controls="" crossorigin="" poster="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4643df54424399.5978eed388e2e.jpg" playsinline="" src="blob:null/90e4f4ac-58c7-4fde-8c08-b5d34af6042f">
-    <source type="application/vnd.apple.mpegurl" src="https://lin-gd-001-cf.slivcdn.com/out/v1/d3a414ee43fc440fbe6190e2a1ed5fe1/master_3.m3u8?hdntl=exp=1681186041~acl=*~hmac=0c71111d798d7efeb5cf43cfd62da7a1d7f04d22643b8098f773b751ed597124&amp;originpath=/linear/hls/pb/event/CrTivkDESWqwvUj3zFEYEA/stream/7c7e6a33-4bd5-4eb0-ae48-8b011e9dda38:TPE2/variant/67bb8f291f658e8159c10b8e6535d5a7/bandwidth/2341077.m3u8"></video>
-    
-    <script>
-    setTimeout(videovisible, 3000)
-    
-    function videovisible() {
-        document.getElementById('loading').style.display = 'none'
-    }
-    document.addEventListener("DOMContentLoaded", () => {
-        const e = document.querySelector("video"),
-            n = e.getElementsByTagName("source")[0].src,
-            o = {};
-        if (Hls.isSupported()) {
-            var config = {
-                maxMaxBufferLength: 100,
-            };
-            const t = new Hls(config);
-            t.loadSource(n), t.on(Hls.Events.MANIFEST_PARSED, function(n, l) {
-                const s = t.levels.map(e => e.height);
-                o.quality = {
-                    default: s[0],
-                    options: s,
-                    forced: !0,
-                    onChange: e => (function(e) {
-                        window.hls.levels.forEach((n, o) => {
-                            n.height === e && (window.hls.currentLevel = o)
-                        })
-                    })(e)
-                };
-                new Plyr(e, o)
-            }), t.attachMedia(e), window.hls = t
-        } else {
-            new Plyr(e, o)
-        }
-    });
-    </script>
-    
-    </body></html>
+    preload="auto"
+    width="800"
+    height="400"
+    poster="https://yt3.ggpht.com/WrjDeIWr2pmRdCKFuEDfvkovr0O_o7gyfT_J_AMJjFk5KR9HGQVirOP0DeimyAoBUHRfH79X=s48-c-k-c0x00ffffff-no-rj"
+    data-setup="{}"
+  >
+  <source src="https://lin-gd-001-cf.slivcdn.com/out/v1/d3a414ee43fc440fbe6190e2a1ed5fe1/master_7.m3u8?hdntl=exp=1681268736~acl=*~hmac=c42a0d6e38c0d9daa45774a9662be89568214436179f7a5ab5365ad318e35021&originpath=/linear/hls/pb/event/CrTivkDESWqwvUj3zFEYEA/stream/bfad4f4d-6d00-4c42-ac9a-d528ac79a5a0:TPE/variant/0608a56b239e7568411f706652b04e14/bandwidth/1571042.m3u8" type="application/x-mpegURL" />
+  <source src="https://lin-gd-001-cf.slivcdn.com/out/v1/d3a414ee43fc440fbe6190e2a1ed5fe1/master_7.m3u8?hdntl=exp=1681268736~acl=*~hmac=c42a0d6e38c0d9daa45774a9662be89568214436179f7a5ab5365ad318e35021&originpath=/linear/hls/pb/event/CrTivkDESWqwvUj3zFEYEA/stream/bfad4f4d-6d00-4c42-ac9a-d528ac79a5a0:TPE/variant/0608a56b239e7568411f706652b04e14/bandwidth/1571042.m3u8" type="application/x-mpegURL" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+  </center>
+
+  <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+</body>
